@@ -1,0 +1,12 @@
+
+= Installation =
+
+Add this to your .bashrc
+
+source ~/Scripts/arch-nouveau-nvidia-switcher/switch-nouveau-nvidia.sh
+
+= Usage =
+
+$ to-nouveau
+
+$ to-nvidia
