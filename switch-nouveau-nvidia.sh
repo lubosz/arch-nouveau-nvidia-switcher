@@ -14,10 +14,7 @@ to_nouveau_conf() {
 
 to-nvidia() {
 	#remove nouveau stuff
-	sudo pacman -R nouveau-dri
-	sudo pacman -R lib32-nouveau-dri xf86-video-nouveau 
-	sudo pacman -R nouveau-dri-git 
-	sudo pacman -R nouveau-dri lib32-nouveau-dri
+	sudo pacman -R lib32-nouveau-dri xf86-video-nouveau nouveau-dri
 	
 	#install nvidia stuff
   sudo pacman -S --needed nvidia nvidia-libgl lib32-nvidia-libgl 
